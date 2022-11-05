@@ -1475,6 +1475,7 @@ textarea {
   color: rgba(44, 44, 44, 0.7);
   display: inline-block;
   margin-left: 15px;
+  padding:  0 5px;
 }
 #footer.standard .footer-socials a:hover {
   color: #2c2c2c;
