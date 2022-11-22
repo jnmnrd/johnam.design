@@ -10,11 +10,12 @@
     9  Project Single
     10 Forms
     11 Contact & Address
-    12 Blog
-    13 Blog Single
-    14 Comments
-    15 Footer
-    16 Responsive 
+    12 About
+    13 Blog
+    14 Blog Single
+    15 Comments
+    16 Footer
+    17 Responsive 
 -------------------------------------------------------------*/
 /*-----------------------------------------------------------
     Basic 
@@ -49,7 +50,7 @@ dl, dt, dd, ol, ul, li {
 a {
   font-size: 16px;
   font-weight: 500;
-  color: #0C0C0C;
+  color: rgba(45, 27, 250, 0.9);
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -107,9 +108,9 @@ h1 {
   margin-top: 50px;
 }
 h1.heading {
-  font-size: 64px;
+  font-size: 2.2em;
   line-height: 72px;
-  font-weight: 600;
+  font-weight: 300;
   color:  #222222;
 }
 
@@ -562,56 +563,6 @@ blockquote {
   margin-bottom: 0;
 }
 
-.team-member {
-  padding-bottom: 25px;
-}
-.team-member .member-avatar {
-  margin-bottom: 30px;
-}
-.team-member .member-avatar img {
-  width: 100%;
-}
-.team-member .member-info h6 {
-  margin-bottom: 7px;
-  text-align: center;
-}
-.team-member .member-info h6 .member-title {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
-  color: #2c2c2c;
-}
-.team-member .member-info h6 .member-title:after {
-  content: '-';
-  color: #848484;
-  display: inline-block;
-  margin: 0 7px;
-}
-.team-member .member-info h6 .member-position {
-  font-size: 14px;
-  font-weight: 300;
-  color: #848484;
-  display: inline-block;
-  letter-spacing: 0;
-}
-.team-member .member-info .member-socials {
-  text-align: center;
-  list-style-type: none;
-}
-.team-member .member-info .member-socials li {
-  display: inline-block;
-  margin: 0 5px;
-}
-.team-member .member-info .member-socials li a {
-  font-size: 13px;
-  font-weight: 300;
-  color: rgba(132, 132, 132, 0.7);
-  letter-spacing: 0;
-}
-.team-member .member-info .member-socials li a:hover {
-  color: #848484;
-}
-
 .client-list {
   list-style-type: none;
 }
@@ -647,6 +598,10 @@ blockquote {
 }
 .cta h2 a:hover {
   opacity: .9;
+}
+
+.about-img {
+  width: 250px;
 }
 
 .img-box {
@@ -700,7 +655,7 @@ blockquote {
 }
 
 .wave {
-  animation-name: wave-animation;  /* Thanks Jake Jarvis! jarv.is */
+  animation-name: wave-animation; 
   animation-duration: 2.5s;       
   animation-iteration-count: infinite;  
   transform-origin: 70% 70%;      
@@ -718,35 +673,6 @@ blockquote {
   100% { transform: rotate( 0.0deg) }
 }
 
-/*-----------------------------------------------------------
-    Carousel
--------------------------------------------------------------*/
-.kraft-carousel .owl-nav {
-  display: none;
-}
-.kraft-carousel .owl-dots {
-  padding-bottom: 15px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  margin-top: 0;
-}
-.kraft-carousel .owl-dots .owl-dot span {
-  background-color: #2c2c2c;
-  opacity: .4;
-  margin: 0 7px;
-  width: 14px;
-  height: 14px;
-  border-radius: 0;
-}
-.kraft-carousel .owl-dots .owl-dot span:hover {
-  background-color: #2c2c2c;
-  opacity: 1;
-}
-.kraft-carousel .owl-dots .owl-dot.active span {
-  background-color: #2c2c2c;
-  opacity: 1;
-}
 
 /*-----------------------------------------------------------
     Button
@@ -1208,6 +1134,10 @@ textarea {
   height: 100%;
   width: 100%;
 }
+
+/*-----------------------------------------------------------
+    About
+-------------------------------------------------------------*/
 
 /*-----------------------------------------------------------
     Blog
