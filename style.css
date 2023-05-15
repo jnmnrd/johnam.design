@@ -362,6 +362,12 @@ blockquote {
   text-align: center !important;
 }
 
+.div-line {
+  border-bottom: 2px solid #f5f5f5;
+  padding: 32px 0;
+  margin-bottom: 32px;
+}
+
 /*-----------------------------------------------------------
     Header
 -------------------------------------------------------------*/
@@ -926,6 +932,7 @@ blockquote {
 
 .project-title h1 {
   margin-bottom: 0;
+  line-height: 40px;
 }
 .project-title p {
   margin: 10px 0 0 0;
