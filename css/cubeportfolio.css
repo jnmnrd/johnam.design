@@ -623,7 +623,7 @@
   background-color: rgba(45, 27, 250, 0.9);
   -webkit-transition: opacity .4s;
   transition: opacity .4s; 
-  border-radius: 8px; }
+  border-radius: 20px; }
 
 .cbp-caption-zoom .cbp-caption:hover .cbp-caption-activeWrap {
   opacity: 1; }
